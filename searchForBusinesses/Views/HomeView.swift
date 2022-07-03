@@ -30,7 +30,7 @@ struct HomeView: View {
     
     var body: some View {
         NavigationView {
-            VStack {
+            ScrollView {
                 Spacer().frame(height: 20)
                 VStack {
                     sectionView(text: searchBy)
